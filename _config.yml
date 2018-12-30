@@ -1,32 +1,33 @@
 # Site settings 配置站点
-title: '嘤嘤怪~的博客'
-description: 'Just for fun'
-keywords: '嘤嘤怪~, 嘤嘤怪~的独立博客, 嘤嘤怪~的博客, 免费节点ShadowsockR(简称SSR)详细使用教程客户端下载'
-url: 'https://ceshiboke.github.io' # your host
+title: 'your awesome title'
+description: 'your web description'
+keywords: 'your web keywords, another keywords'
+url: 'http://shadowsocksr-ss.github.io/' # your host
 
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   首页: '/'
   标签: '/tags.html'
   时间线: '/timeline.html'
-  关于嘤嘤怪~: '/about.html'  
+  关于博主: '/about.html'
+  友情链接: '/friendLink.html'
 
 # 博主
 author: true
-name: '嘤嘤怪~'
-NickName: 'Family'
-webtitle: 'Family'
-bio: '反正你别给我一拳就行~'
+name: 'your awesome name'
+NickName: 'your awesome nickname'
+webtitle: 'your awesome webtitle'
+bio: 'your awesome bio'
 about: true
-aboutyou: '&emsp;&emsp;SS SSR 技术讨论 只限于游戏或者影视需求，请勿从事违法行为~~~'
+aboutyou: 'your introduction'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
-SNS: false
+SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'vipxiaoluo@qq.com'
+  mail: 'mailto:abc@gmail.com'
   weixin: '' # 你的微信二维码存放的地址
-  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号码'&site=qq&menu=yes
+  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: ''
   Codepen: ''
   weibo: ''
