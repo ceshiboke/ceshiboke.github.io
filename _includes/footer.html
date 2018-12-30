@@ -1,0 +1,18 @@
+<footer id="bottom">
+  <br>
+  <span>{{ site.title }} ©
+  {% assign current = "now" | date: "%Y" | plus: 0%}
+  {% unless site.footer.since and site.footer.since == current %}
+    {{ site.footer.since }}
+    -
+  {% endunless %}
+  {{ current }}
+  <br>
+  Powered by <a href="https://www.jekyll.com.cn/">Jekyll</a> | <a href="http://www.4399.com/">HardCandy-YYg</a></span>
+  <P>
+  <span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span>1
+  </p>
+</span>
+</footer>
+<!-- 不蒜子 -->
+<script async src="//cdn.busuanzi.ibruce.info/cdn/busuanzi/2.3/busuanzi.pure.mini.js"></script>
